@@ -47,8 +47,8 @@
   //
   // Not all trackpoints support it and you have to enable
   // `tp-press-to-select;` in `&mouse_ps2` first.
-  #define U_MSS_TP_PT_I &mms MS_TP_PTS_THRESHOLD_INCR
-  #define U_MSS_TP_PT_D &mms MS_TP_PTS_THRESHOLD_DECR
+  // #define U_MSS_TP_PT_I &mms MS_TP_PTS_THRESHOLD_INCR
+  // #define U_MSS_TP_PT_D &mms MS_TP_PTS_THRESHOLD_DECR
 
 
   // If you mess up the settings, you can use this key code to clear the
@@ -123,8 +123,8 @@
 
       // Enable clicking by tapping on the TP.
       // Not all TPs support this.
-      tp-press-to-select;
-      tp-press-to-select-threshold = <0>;
+      // tp-press-to-select;
+      // tp-press-to-select-threshold = <0>;
 
 
       // Adjust axis settings on the TP
